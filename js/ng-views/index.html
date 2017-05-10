@@ -1,5 +1,5 @@
 <h1>Instagrams</h1>
-
+<a data-ui-sref="instagramNew">New Instagram</a>
 <div data-ng-repeat= "instagram in vm.instagrams">
   <p><a ui-sref="instagramShow({id: $index})">{{instagram.body}}</a></p>
 </div>
