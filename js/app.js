@@ -39,8 +39,8 @@ angular
     controlleras: "vm"
   })
   .state("InstagramNew",{
-    url: "/instagrams/new"
-    controller: "InstagramNewController"
+    url: "/instagrams/new",
+    controller: "InstagramNewController",
     controlleras: "vm"
   })
 
